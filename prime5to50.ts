@@ -1,9 +1,9 @@
 function prime5to50(): string {
-	let message : string = ""
+    let message : string = ""
 
-	// TODO: fill up the message string with the proper content.
+    // TODO: fill up the message string with the proper content.
 
-	return message
+    return message
 }
 
 // You may use additional helper functions.
