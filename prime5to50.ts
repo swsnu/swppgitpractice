@@ -1,11 +1,17 @@
-function prime5to50(): string {
-	let message : string = ""
+let prime: boolean = true;
+var start:number = 5;
+var num: number = 5;
+var j: any;	
 
-	// TODO: fill up the message string with the proper content.
-
-	return message
+for (num = start; num >= 5 && num <= 50; num++) {
+	for (j = 2; j >= 2 && j < num; j++) {
+		if (num % j == 0){
+			prime = false;
+			break;
+		}
+	}
+	if (prime == true){
+		console.log(num + " is a prime number");
+	}
+	prime = true;
 }
-
-// You may use additional helper functions.
-
-document.body.innerHTML = prime5to50()
