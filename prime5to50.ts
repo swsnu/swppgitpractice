@@ -3,6 +3,14 @@ function prime5to50(): string {
 
 	// TODO: fill up the message string with the proper content.
 
+	var i:number = 5;
+	var j : number;
+	for(j = i;50>=i;i++){
+	 console.log(i + "is a prime number")
+	}
+	
+
+
 	return message
 }
 
