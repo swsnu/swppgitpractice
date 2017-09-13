@@ -21,7 +21,7 @@ function prime5to50(): string {
 		} else {
 			message += (num + " is not a prime number")
 		}
-		message += "\n"
+		message += "<br/>"
 		num++
 	}
 	return message
