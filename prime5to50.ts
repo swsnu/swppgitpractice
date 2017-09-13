@@ -1,5 +1,5 @@
 //I used some recent Javascript/Typescript features so to compile you need 
-to use the flag --target es6 and a recent browser
+//to use the flag --target es6 and a recent browser
 
 function prime5to50(): string {
 	//let message : string = ""
