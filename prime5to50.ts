@@ -12,8 +12,7 @@ function prime5to50(): string {
 				break;
 		console.log(i + " is a prime number");
 		}
-	}
-	
+	}	
 	return message
 }
 
