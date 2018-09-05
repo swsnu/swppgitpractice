@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head><title>Prime Printer Runner</title></head>
-    <body>
-        <script src="prime5to50.js"></script>
-    </body>
+	<head>
+		<title>Prime Printer Runner</title>
+		<script src="prime5to50.js"></script>
+		<style>
+			span, div {
+				cursor: default;
+				font-family: 'Menlo', 'Courier New', 'Monospace';
+				color: white;
+			}
+		</style>
+	</head>
+	<body onload="prime5to50();">
+		<div style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-color: #030;">
+			<div style="position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); text-align: center;">
+				<div>
+					<span style="font-size: 200px; opacity: 1;" id="num">5</span>&nbsp;
+				</div>
+				<div style="font-size: 50px;">
+					is a prime number.
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
