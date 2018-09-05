@@ -1,7 +1,7 @@
 function prime5to50() {
     var message = "";
     // TODO: fill up the message string with the proper content.
-    for (var i = 2; i < 51; i++) {
+    for (var i = 5; i < 51; i++) {
       var prime = true;
         for (var j = 2; j < i; j++) {
             if (i % j == 0) {
