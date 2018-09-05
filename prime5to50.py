@@ -4,4 +4,4 @@ for num in range(5, 50):
             if (num % i) == 0:
                 break
         else:
-            print(num, "is a prime number")
+            print(num," is a prime number")
