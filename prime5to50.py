@@ -8,5 +8,5 @@ while i <= 50:
             q = 1
     if q == 0:
         l.append(i)
-        print(i)
+        print(str(i) + " is a prime number")
     i += 1
